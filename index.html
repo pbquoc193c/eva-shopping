@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a8df118026.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Eva - Fashion Shopping</title>
+  </head>
+  <body>
+    <header>
+      <section class="section-hero">
+        <header class="header">
+          <img
+            src="./Images/logo.png"
+            alt=""
+            class="logo"
+            width="20px"
+            height="20px"
+          />
+          <nav class="main-nav">
+            <ul class="links">
+              <li>
+                <a href="#" class="link">Home</a>
+              </li>
+              <li>
+                <a href="#" class="link"
+                  >Clothes <i class="fa-solid fa-caret-down"></i
+                ></a>
+                <div class="sub-links">
+                  <i class="menu-icon fa-solid fa-caret-up"></i>
+                  <div class="fashions">
+                    <div class="fashion">
+                      <span class="fashion__title">Men's Fashion</span>
+                      <ul>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Shirt</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">T-shirt</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Suit</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Jacket</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Trouser</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="fashion">
+                      <span class="fashion__title">Women's Fashion</span>
+                      <ul>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Dress</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">T-shirt</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Skirt</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Jumper</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Vest</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Dress Pants</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="link"
+                  >Accessories <i class="fa-solid fa-caret-down"></i
+                ></a>
+                <div class="sub-links">
+                  <i class="menu-icon fa-solid fa-caret-up"></i>
+                  <div class="fashions">
+                    <div class="fashion">
+                      <span class="fashion__title">Fashion Accessories</span>
+                      <ul>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Tie</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Glasses</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Shoes</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Wallet</a>
+                        </li>
+                        <li class="fashion-item">
+                          <a href="#" class="fashion__link">Hats</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="user">
+              <a href="#" class="user__cart">
+                <i class="icon fa-brands fa-opencart"></i>
+                <span class="quantity">0</span>
+              </a>
+              <a href="#" class="user__favourite">
+                <i class="icon fa-regular fa-heart"></i>
+                <span class="quantity">0</span>
+              </a>
+              <a href="#" class="user__account">
+                <i class="icon fa-regular fa-user"></i>
+              </a>
+            </div>
+          </nav>
+          <i class="icon icon-bar fa-solid fa-bars"></i>
+        </header>
+        <div class="hero-text">
+          <h1 class="hero-text__title">Discover your unique style</h1>
+          <p class="hero-text__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat
+          </p>
+          <div class="hero-items">
+            <div class="hero-item">
+              <img
+                src="./Images/hero_clothes.webp"
+                alt=""
+                class="item__img"
+                width="50px"
+              />
+            </div>
+            <div class="hero-item">
+              <img
+                src="./Images/hero_hats.jpg"
+                alt=""
+                class="item__img"
+                width="50px"
+              />
+            </div>
+            <div class="hero-item">
+              <img
+                src="./Images/hero_glasses.jpg"
+                alt=""
+                class="item__img"
+                width="50px"
+              />
+            </div>
+            <div class="hero-item">
+              <img
+                src="./Images/hero_shoes.jpg"
+                alt=""
+                class="item__img"
+                width="50px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="hero__img">
+            <img src="./Images/hero_1.webp" alt="" width="50px" />
+          </div>
+          <div class="hero__img">
+            <img src="./Images/hero_2.webp" alt="" width="50px" />
+          </div>
+          <div class="hero__img">
+            <img src="./Images/hero_3.webp" alt="" width="50px" />
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section-product">
+        <div class="container">
+          <h2 class="heading-primary">Top Rated</h2>
+          <div class="category">
+            <button class="category-item active">Men</button>
+            <button class="category-item">Women</button>
+          </div>
+
+          <div class="wrapper-products">
+            <div class="product-sliders">
+              <div class="product-slider">
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_clothes.webp"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Clothes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_clothes.webp"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Clothes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_clothes.webp"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Clothes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_clothes.webp"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Clothes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider">
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_glasses.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Hats</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_glasses.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Hats</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_glasses.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Hats</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_glasses.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Hats</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider">
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_hats.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Glasses</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_hats.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Glasses</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_hats.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Glasses</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_hats.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Glasses</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider">
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_shoes.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Shoes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_shoes.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Shoes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_shoes.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Shoes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="#" class="product__link">
+                    <img
+                      src="./Images/hero_shoes.jpg"
+                      alt=""
+                      class="product__img"
+                    />
+                  </a>
+                  <div class="product-info">
+                    <p class="product__name">Product Name</p>
+                    <p class="product__type">Shoes</p>
+                    <p class="product__price">120.00$</p>
+                  </div>
+                  <div class="product-btn">
+                    <button class="btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="dots"></div>
+
+            <div class="arrows">
+              <i class="arrow arrow-left fa-solid fa-angle-left"></i>
+              <i class="arrow arrow-right fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text">
+              <p class="cta-text__title">Elegance is always in style</p>
+              <p class="cta-text__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam
+              </p>
+              <a href="#" class="btn cta-btn">Shop Now</a>
+            </div>
+            <div class="cta-img">
+              <img src="./Images/cta.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-news">
+        <div class="container">
+          <h2 class="heading-primary">Latest News</h2>
+          <div class="wrapper-news">
+            <div class="news">
+              <img src="./Images/news_1.webp" alt="" class="news__img" />
+              <div class="news-info">
+                <p class="news__date">Updated January 12, 2024</p>
+                <p class="news__title">Mixing High And Low</p>
+                <a href="#" class="btn news__btn">Read More</a>
+              </div>
+            </div>
+            <div class="news">
+              <img src="./Images/news_2.webp" alt="" class="news__img" />
+              <div class="news-info">
+                <p class="news__date">Updated January 12, 2024</p>
+                <p class="news__title">Mixing High And Low</p>
+                <a href="#" class="btn news__btn">Read More</a>
+              </div>
+            </div>
+            <div class="news">
+              <img src="./Images/news_3.webp" alt="" class="news__img" />
+              <div class="news-info">
+                <p class="news__date">Updated January 12, 2024</p>
+                <p class="news__title">Mixing High And Low</p>
+                <a href="#" class="btn news__btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-gallery">
+        <div class="container">
+          <div class="wrapper-gallery">
+            <div class="gallery">
+              <div class="block-img">
+                <img src="./Images/gallery_1.webp" alt="" class="gallery-img" />
+              </div>
+              <div class="block-img">
+                <img src="./Images/gallery_2.webp" alt="" class="gallery-img" />
+              </div>
+              <div class="block-img">
+                <img src="./Images/gallery_3.webp" alt="" class="gallery-img" />
+              </div>
+              <div class="block-img">
+                <img src="./Images/gallery_4.webp" alt="" class="gallery-img" />
+              </div>
+              <div class="block-img">
+                <img src="./Images/gallery_5.webp" alt="" class="gallery-img" />
+              </div>
+            </div>
+            <div class="gallery-quote">
+              <p class="gallery-quote__text">
+                “The truly fashionable are beyond fashion.”
+              </p>
+              <p class="gallery-quote__author">- Cecil Beaton</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="banner">
+        <div class="banner-left">
+          <div class="banner-text">
+            <p class="banner-text__title">Fashion<span>Sale</span></p>
+            <p class="banner-text__sale">30% off</p>
+          </div>
+        </div>
+        <div class="banner-right">
+          <img src="./Images/banner.webp" alt="" class="banner-img" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer-contact">
+            <img src="./Images/logo.png" alt="" class="logo" />
+            <ul class="footer-elements">
+              <li class="footer-element">
+                <i class="footer-icon fa-solid fa-envelope"></i>
+                <span>eva@gmail.com</span>
+              </li>
+              <li class="footer-element">
+                <i class="footer-icon fa-solid fa-location-dot"></i>
+                <span>Thap Muoi, Dong Thap.</span>
+              </li>
+              <li class="footer-element">
+                <i class="footer-icon fa-solid fa-phone"></i>
+                <span>0123-456-789</span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-info">
+            <h3 class="heading-secondary">Information</h3>
+            <ul class="footer-elements">
+              <li class="footer-element">
+                <a href="#" class="footer-link">My Account</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">Login</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">My Cart</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">Check Out</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h3 class="heading-secondary">Services</h3>
+            <ul class="footer-elements">
+              <li class="footer-element">
+                <a href="#" class="footer-link">About Us</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">Careers</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">Delivery Information</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+              <li class="footer-element">
+                <a href="#" class="footer-link">Terms & Condition</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-subscribe">
+            <h3 class="heading-secondary">Subscribe</h3>
+            <input type="text" class="footer-input" placeholder="Email..." />
+            <button class="btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
