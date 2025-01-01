@@ -7,6 +7,23 @@ const sliders = document.querySelectorAll(".product-slider");
 const arrowLeft = document.querySelector(".arrow-left");
 const arrowRight = document.querySelector(".arrow-right");
 const dotContainer = document.querySelector(".dots");
+const mainNav = document.querySelector(".main-nav");
+const openMenuBtn = document.querySelector(".bar-icon");
+const closeMenuBtn = document.querySelector(".close-icon");
+
+///////////////// Show / Hide Main Menu
+const showMenu = function () {
+  mainNav.classList.add("open");
+  closeMenuBtn.classList.add("open");
+};
+
+const hideMenu = function () {
+  mainNav.classList.remove("open");
+  closeMenuBtn.classList.remove("open");
+};
+
+openMenuBtn.addEventListener("click", showMenu);
+closeMenuBtn.addEventListener("click", hideMenu);
 
 //////////////// Product Section
 let categoryIndex = 0;

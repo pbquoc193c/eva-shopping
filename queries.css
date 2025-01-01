@@ -27,7 +27,51 @@
     display: none;
   }
 
-  .icon-bar {
+  .main-nav.open {
+    display: block;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+
+  .main-nav.open .links {
+    order: 2;
+    display: block;
+    text-align: center;
+  }
+
+  .main-nav.open .link {
+    display: block;
+    padding: 1.6rem 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .main-nav.open .link,
+  .main-nav.open .icon {
+    color: #fff;
+  }
+
+  .close-icon.open {
+    display: block;
+    z-index: 999;
+    color: #fff;
+    position: fixed;
+    top: 2.2rem;
+    right: 6rem;
+    font-size: 3.2rem;
+    cursor: pointer;
+  }
+
+  .bar-icon {
     display: flex;
   }
 
