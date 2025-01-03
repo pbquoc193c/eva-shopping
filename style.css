@@ -27,6 +27,26 @@ body {
   padding: 1.6rem 0;
 }
 
+.p-64-0 {
+  padding: 0 6.4rem;
+}
+
+.pb-32 {
+  padding-bottom: 3.2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* Section Hero */
 .section-hero {
   background-image: linear-gradient(
@@ -844,4 +864,133 @@ footer .container {
     pointer-events: visible;
     visibility: visible;
   }
+}
+
+/* 
+ Product
+*/
+.header-product {
+  background-image: linear-gradient(
+    var(--secondary-color),
+    var(--primary-color)
+  );
+}
+
+.main-product {
+  border-bottom: 1px solid var(--border-color);
+  margin: 2.4rem;
+  padding: 1.6rem;
+}
+
+.product-features {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature {
+  display: flex;
+  height: 3.6rem;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--primary-color);
+  transition: all 0.2s;
+}
+
+.feature:hover {
+  background-color: var(--secondary-color);
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22% 1fr;
+  column-gap: 3.2rem;
+}
+
+.product-filters {
+  border: 1px solid var(--border-color);
+  border-radius: 0.8rem;
+  padding: 2.4rem;
+  background-image: linear-gradient(
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  align-self: self-start;
+}
+
+.filters {
+}
+
+.filter {
+  list-style: none;
+  row-gap: 1.6rem;
+  column-gap: 1.6rem;
+  padding-bottom: 4.8rem;
+  padding-left: 1.6rem;
+}
+
+.filter-title {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.filter-item {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.filter-checkbox {
+  scale: 120%;
+  accent-color: var(--text-color);
+}
+
+.filter-name {
+  font-size: 1.4rem;
+  color: var(--subtitle-color);
+}
+
+.filter-quantity {
+  color: var(--text-color);
+  font-size: 1.6rem;
+}
+
+.filter-range {
+  display: block;
+  width: 100%;
+  accent-color: var(--text-color);
+}
+
+.range-detail {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--subtitle-color);
+}
+
+.products {
+}
+
+.product-list {
+  column-gap: 1.6rem;
+  row-gap: 3.2rem;
+  align-self: flex-start;
+  padding-bottom: 1.6rem;
+}
+
+.product {
+  width: 100%;
+}
+
+.product-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
 }
