@@ -15,9 +15,9 @@
       src="https://kit.fontawesome.com/a8df118026.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script defer src="./script.js"></script> -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css" />
+    <script defer src="./assets/js/productFilters.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/queries.css" />
     <link rel="icon" type="image/x-icon" href="./Images/logo.png" />
     <title>Eva - Clothes</title>
   </head>
@@ -68,10 +68,13 @@
                     <span class="fashion__title">Women's Fashion</span>
                     <ul>
                       <li class="fashion-item">
-                        <a href="#" class="fashion__link">Dress</a>
+                        <a href="#" class="fashion__link">Shirt</a>
                       </li>
                       <li class="fashion-item">
                         <a href="#" class="fashion__link">T-shirt</a>
+                      </li>
+                      <li class="fashion-item">
+                        <a href="#" class="fashion__link">Dress</a>
                       </li>
                       <li class="fashion-item">
                         <a href="#" class="fashion__link">Skirt</a>
@@ -160,61 +163,62 @@
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Shirt (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >T-shirt (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Suit (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Jacket (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Trouser (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Dress (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Skirt (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Jumper (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Vest (<span class="filter-quantity">1</span>)</span
                     >
                   </li>
                   <li class="filter-item">
                     <input type="checkbox" class="filter-checkbox" />
                     <span class="filter-name"
-                      >Category (<span class="filter-quantity">1</span>)</span
+                      >Dress Pants (<span class="filter-quantity">1</span
+                      >)</span
                     >
                   </li>
                 </ul>
@@ -223,11 +227,19 @@
                 <p class="filter-title">Gender</p>
                 <ul class="filter grid grid--2-cols">
                   <li class="filter-item">
-                    <input type="checkbox" class="filter-checkbox" />
+                    <input
+                      type="checkbox"
+                      class="filter-checkbox"
+                      value="male"
+                    />
                     <span class="filter-name">Male</span>
                   </li>
                   <li class="filter-item">
-                    <input type="checkbox" class="filter-checkbox" />
+                    <input
+                      type="checkbox"
+                      class="filter-checkbox"
+                      value="female"
+                    />
                     <span class="filter-name">Female</span>
                   </li>
                 </ul>
@@ -240,7 +252,7 @@
             </div>
             <div class="products">
               <div class="product-list grid grid--4-cols">
-                <div class="product">
+                <!-- <div class="product">
                   <a href="#" class="product__link">
                     <img
                       src="./Images/hero_clothes.webp"
@@ -515,7 +527,7 @@
                     </button>
                     <button class="btn">Buy now</button>
                   </div>
-                </div>
+                </div> -->
               </div>
               <div class="product-dots">
                 <div class="dot active"></div>

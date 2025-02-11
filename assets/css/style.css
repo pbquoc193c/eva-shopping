@@ -406,6 +406,8 @@ body {
   vertical-align: bottom;
   cursor: pointer;
   transition: all 0.2s;
+  filter: brightness(1.04);
+  object-fit: cover;
 }
 
 .product:hover .product__img {
@@ -419,13 +421,13 @@ body {
 }
 
 .product__name {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   padding-bottom: 0.4rem;
 }
 
 .product__type {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: var(--subtitle-color);
   padding-bottom: 1.2rem;
 }
@@ -643,7 +645,7 @@ body {
 }
 
 .news__title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #000;
   padding-bottom: 2.4rem;
@@ -993,4 +995,9 @@ footer .container {
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
+}
+
+.btn.btn-favorite:hover i {
+  fill: red;
+  stroke: red;
 }
